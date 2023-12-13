@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       <context:component-scan base-package="your.package.name" />
+
+<!--    <context:property-placeholder location="classpath:application.properties" />-->
+
+<!--    <bean id="motherboard" class="com.example.lab1.Motherboard">-->
+<!--        <property name="name" value="Tomahawk"/>-->
+<!--        <property name="price" value="2399"/>-->
+<!--        <constructor-arg name="brand" value="MSI"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="cpu" class="com.example.lab1.Cpu">-->
+<!--        <property name="name" value="Ryzen 5"/>-->
+<!--        <property name="price" value="7999"/>-->
+<!--        <constructor-arg name="category" value="CPU"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="shop" class="com.example.lab1.Shop">-->
+<!--        <property name="name" value="${shop.name}"/>-->
+<!--        <property name="products">-->
+<!--            <list>-->
+<!--                <ref bean="motherboard" />-->
+<!--                <ref bean="cpu" />-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="customer" class="com.example.lab1.Customer">-->
+<!--        <property name="name" value="${customer.name}" />-->
+<!--        <property name="shop" ref="shop" />-->
+<!--    </bean>-->
+</beans>
